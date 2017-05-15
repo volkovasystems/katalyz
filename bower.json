@@ -1,0 +1,34 @@
+{
+  "name": "katalyz",
+  "version": "0.0.0",
+  "description": "Extract class structure difference.",
+  "main": "katalyz.deploy.js",
+  "support": "katalyz.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "extract",
+    "class",
+    "structure",
+    "difference",
+    "katalyz"
+  ],
+  "homepage": "https://github.com/volkovasystems/katalyz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "difpro": "^0.0.0",
+    "dscrb": "^0.4.0",
+    "kein": "^0.25.0",
+    "leveld": "^0.4.0",
+    "protype": "^0.21.0",
+    "raze": "^0.29.0"
+  }
+}
