@@ -35,6 +35,10 @@
               			"module": "katalyz",
               			"author": "Richeve S. Bebedor",
               			"eMail": "richeve.bebedor@gmail.com",
+              			"contributors": [
+              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
+              			],
               			"repository": "https://github.com/volkovasystems/katalyz.git",
               			"test": "katalyz-test.js",
               			"global": true
