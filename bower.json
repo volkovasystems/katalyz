@@ -1,11 +1,13 @@
 {
   "name": "katalyz",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Extract class structure difference.",
   "main": "katalyz.deploy.js",
   "support": "katalyz.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+    "Vinse Vinalon <vinsevinalon@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -24,11 +26,11 @@
     "tests"
   ],
   "dependencies": {
-    "difpro": "^0.0.0",
-    "dscrb": "^0.4.0",
-    "kein": "^0.25.0",
-    "leveld": "^0.4.0",
-    "protype": "^0.21.0",
-    "raze": "^0.29.0"
+    "difpro": "^0.1.0",
+    "dscrb": "^0.5.0",
+    "kein": "^0.26.0",
+    "leveld": "^0.5.0",
+    "protype": "^0.22.0",
+    "raze": "^0.30.0"
   }
 }
