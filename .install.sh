@@ -4,7 +4,6 @@ difpro \
 dscrb \
 kein \
 leveld \
-protype \
 raze \
 --save && \
 yarn add \
@@ -20,7 +19,6 @@ difpro \
 dscrb \
 kein \
 leveld \
-protype \
 raze \
 --save \
 --force-latest

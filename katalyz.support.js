@@ -52,14 +52,12 @@
               	@include:
               		{
               			"leveld": "leveld",
-              			"protype": "protype",
               			"raze": "raze"
               		}
               	@end-include
               */
 
 var leveld = require("leveld");
-var protype = require("protype");
 var raze = require("raze");
 
 var Residue = require("./residue.js");
@@ -78,7 +76,7 @@ var katalyz = function katalyz(blueprint) {
                                            */
 
 	return leveld(raze(arguments)).
-	filter(function (blueprint) {return protype(blueprint, FUNCTION);}).
+	filter(function (blueprint) {return typeof blueprint == "function";}).
 	reduce(function (residue, blueprint) {return residue.collect(blueprint);}, new Residue());
 };
 

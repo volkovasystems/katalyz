@@ -1,6 +1,6 @@
 {
   "name": "katalyz",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extract class structure difference.",
   "main": "katalyz.js",
   "scripts": {
@@ -32,12 +32,11 @@
   "homepage": "https://github.com/volkovasystems/katalyz#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "difpro": "^0.1.0",
-    "dscrb": "^0.5.0",
-    "kein": "^0.26.0",
-    "leveld": "^0.5.0",
-    "protype": "^0.22.0",
-    "raze": "^0.30.0"
+    "difpro": "^0.2.0",
+    "dscrb": "^0.6.0",
+    "kein": "^0.28.0",
+    "leveld": "^0.7.0",
+    "raze": "^0.33.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -45,6 +44,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
     "source-map-loader": "^0.2.1",
-    "webpack": "^3.0.0"
+    "webpack": "^3.2.0"
   }
 }
